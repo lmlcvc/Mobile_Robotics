@@ -1,0 +1,25 @@
+[1.083s] Invoking command in '/home/lana/ros2_ws/src/lmilicevic_1': PYTHONPATH=/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lmilicevic_1 build --build-base /home/lana/ros2_ws/build/lmilicevic_1/build install --prefix /home/lana/ros2_ws/install/lmilicevic_1 --record /home/lana/ros2_ws/build/lmilicevic_1/install.log --single-version-externally-managed
+[1.324s] running egg_info
+[1.327s] writing ../../build/lmilicevic_1/lmilicevic_1.egg-info/PKG-INFO
+[1.329s] writing dependency_links to ../../build/lmilicevic_1/lmilicevic_1.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../build/lmilicevic_1/lmilicevic_1.egg-info/entry_points.txt
+[1.334s] writing requirements to ../../build/lmilicevic_1/lmilicevic_1.egg-info/requires.txt
+[1.335s] writing top-level names to ../../build/lmilicevic_1/lmilicevic_1.egg-info/top_level.txt
+[1.337s] reading manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[1.338s] writing manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[1.339s] running build
+[1.339s] running build_py
+[1.339s] copying lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1
+[1.354s] running install
+[1.354s] running install_lib
+[1.355s] copying /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1
+[1.355s] byte-compiling /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1/subscriber.py to subscriber.cpython-310.pyc
+[1.355s] running install_data
+[1.355s] running install_egg_info
+[1.355s] removing '/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.355s] Copying ../../build/lmilicevic_1/lmilicevic_1.egg-info to /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info
+[1.356s] running install_scripts
+[1.356s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (subscriber.py, line 81)
+[1.385s] Installing listener script to /home/lana/ros2_ws/install/lmilicevic_1/lib/lmilicevic_1
+[1.385s] writing list of installed files to '/home/lana/ros2_ws/build/lmilicevic_1/install.log'
+[1.418s] Invoked command in '/home/lana/ros2_ws/src/lmilicevic_1' returned '0': PYTHONPATH=/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lmilicevic_1 build --build-base /home/lana/ros2_ws/build/lmilicevic_1/build install --prefix /home/lana/ros2_ws/install/lmilicevic_1 --record /home/lana/ros2_ws/build/lmilicevic_1/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+source;share/trackme/hook/pythonpath.ps1
+source;share/trackme/hook/pythonpath.dsv
+source;share/trackme/hook/pythonpath.sh
+source;share/trackme/hook/ament_prefix_path.ps1
+source;share/trackme/hook/ament_prefix_path.dsv
+source;share/trackme/hook/ament_prefix_path.sh

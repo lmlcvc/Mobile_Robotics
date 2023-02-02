@@ -1,0 +1,38 @@
+[1.265s] Invoking command in '/home/mobrob/ros2_ws/src/lmilicevic_3': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_3 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_3/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_3 --record /home/mobrob/ros2_ws/src/build/lmilicevic_3/install.log --single-version-externally-managed
+[1.694s] running egg_info
+[1.695s] creating ../build/lmilicevic_3/lmilicevic_3.egg-info
+[1.696s] writing ../build/lmilicevic_3/lmilicevic_3.egg-info/PKG-INFO
+[1.697s] writing dependency_links to ../build/lmilicevic_3/lmilicevic_3.egg-info/dependency_links.txt
+[1.697s] writing entry points to ../build/lmilicevic_3/lmilicevic_3.egg-info/entry_points.txt
+[1.698s] writing requirements to ../build/lmilicevic_3/lmilicevic_3.egg-info/requires.txt
+[1.698s] writing top-level names to ../build/lmilicevic_3/lmilicevic_3.egg-info/top_level.txt
+[1.701s] writing manifest file '../build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+[1.704s] reading manifest file '../build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+[1.706s] writing manifest file '../build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.707s] running build_py
+[1.707s] creating /home/mobrob/ros2_ws/src/build/lmilicevic_3/build
+[1.708s] creating /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib
+[1.708s] creating /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib/lmilicevic_3
+[1.708s] copying lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib/lmilicevic_3
+[1.709s] copying lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib/lmilicevic_3
+[1.709s] running install
+[1.710s] running install_lib
+[1.712s] creating /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+[1.712s] copying /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib/lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+[1.713s] copying /home/mobrob/ros2_ws/src/build/lmilicevic_3/build/lib/lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+[1.714s] byte-compiling /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/__init__.py to __init__.cpython-310.pyc
+[1.714s] byte-compiling /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/rotator.py to rotator.cpython-310.pyc
+[1.716s] running install_data
+[1.717s] creating /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/ament_index
+[1.718s] creating /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/ament_index/resource_index
+[1.718s] creating /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/ament_index/resource_index/packages
+[1.718s] copying resource/lmilicevic_3 -> /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/ament_index/resource_index/packages
+[1.719s] copying package.xml -> /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/lmilicevic_3
+[1.719s] creating /home/mobrob/ros2_ws/src/install/lmilicevic_3/share/lmilicevic_3/launch
+[1.719s] running install_egg_info
+[1.722s] Copying ../build/lmilicevic_3/lmilicevic_3.egg-info to /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3-0.0.0-py3.10.egg-info
+[1.724s] running install_scripts
+[1.779s] Installing navigator script to /home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/lmilicevic_3
+[1.781s] writing list of installed files to '/home/mobrob/ros2_ws/src/build/lmilicevic_3/install.log'
+[1.845s] Invoked command in '/home/mobrob/ros2_ws/src/lmilicevic_3' returned '0': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_3 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_3/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_3 --record /home/mobrob/ros2_ws/src/build/lmilicevic_3/install.log --single-version-externally-managed

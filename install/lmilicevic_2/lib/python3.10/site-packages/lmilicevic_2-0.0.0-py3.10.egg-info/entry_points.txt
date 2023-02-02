@@ -1,0 +1,3 @@
+[console_scripts]
+navigator = lmilicevic_2.navigator:main
+

@@ -1,0 +1,25 @@
+[0.895s] Invoking command in '/home/lana/ros2_ws/src/lmilicevic_1': PYTHONPATH=/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lmilicevic_1 build --build-base /home/lana/ros2_ws/build/lmilicevic_1/build install --prefix /home/lana/ros2_ws/install/lmilicevic_1 --record /home/lana/ros2_ws/build/lmilicevic_1/install.log --single-version-externally-managed
+[1.131s] running egg_info
+[1.140s] writing ../../build/lmilicevic_1/lmilicevic_1.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ../../build/lmilicevic_1/lmilicevic_1.egg-info/dependency_links.txt
+[1.145s] writing entry points to ../../build/lmilicevic_1/lmilicevic_1.egg-info/entry_points.txt
+[1.145s] writing requirements to ../../build/lmilicevic_1/lmilicevic_1.egg-info/requires.txt
+[1.146s] writing top-level names to ../../build/lmilicevic_1/lmilicevic_1.egg-info/top_level.txt
+[1.151s] reading manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[1.160s] writing manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[1.160s] running build
+[1.160s] running build_py
+[1.160s] copying lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1
+[1.160s] running install
+[1.160s] running install_lib
+[1.172s] copying /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1
+[1.172s] byte-compiling /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1/subscriber.py to subscriber.cpython-310.pyc
+[1.195s] running install_data
+[1.195s] copying package.xml -> /home/lana/ros2_ws/install/lmilicevic_1/share/lmilicevic_1
+[1.195s] running install_egg_info
+[1.197s] removing '/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.198s] Copying ../../build/lmilicevic_1/lmilicevic_1.egg-info to /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info
+[1.200s] running install_scripts
+[1.221s] Installing subscriber script to /home/lana/ros2_ws/install/lmilicevic_1/lib/lmilicevic_1
+[1.221s] writing list of installed files to '/home/lana/ros2_ws/build/lmilicevic_1/install.log'
+[1.247s] Invoked command in '/home/lana/ros2_ws/src/lmilicevic_1' returned '0': PYTHONPATH=/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lmilicevic_1 build --build-base /home/lana/ros2_ws/build/lmilicevic_1/build install --prefix /home/lana/ros2_ws/install/lmilicevic_1 --record /home/lana/ros2_ws/build/lmilicevic_1/install.log --single-version-externally-managed

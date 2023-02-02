@@ -1,0 +1,21 @@
+[1.583s] Invoking command in '/home/mobrob/ros2_ws/src/lmilicevic_1': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_1 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_1/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_1 --record /home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log --single-version-externally-managed
+[2.010s] running egg_info
+[2.011s] writing ../build/lmilicevic_1/lmilicevic_1.egg-info/PKG-INFO
+[2.012s] writing dependency_links to ../build/lmilicevic_1/lmilicevic_1.egg-info/dependency_links.txt
+[2.012s] writing entry points to ../build/lmilicevic_1/lmilicevic_1.egg-info/entry_points.txt
+[2.013s] writing requirements to ../build/lmilicevic_1/lmilicevic_1.egg-info/requires.txt
+[2.013s] writing top-level names to ../build/lmilicevic_1/lmilicevic_1.egg-info/top_level.txt
+[2.020s] reading manifest file '../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[2.021s] writing manifest file '../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'
+[2.022s] running build
+[2.022s] running build_py
+[2.023s] running install
+[2.023s] running install_lib
+[2.026s] running install_data
+[2.028s] running install_egg_info
+[2.036s] removing '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.037s] Copying ../build/lmilicevic_1/lmilicevic_1.egg-info to /home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info
+[2.038s] running install_scripts
+[2.069s] Installing subscriber script to /home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/lmilicevic_1
+[2.070s] writing list of installed files to '/home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log'
+[2.138s] Invoked command in '/home/mobrob/ros2_ws/src/lmilicevic_1' returned '0': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_1 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_1/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_1 --record /home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log --single-version-externally-managed

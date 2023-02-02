@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/lmilicevic_2/lmilicevic_2.egg-info/PKG-INFO
+../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt
+../build/lmilicevic_2/lmilicevic_2.egg-info/dependency_links.txt
+../build/lmilicevic_2/lmilicevic_2.egg-info/entry_points.txt
+../build/lmilicevic_2/lmilicevic_2.egg-info/requires.txt
+../build/lmilicevic_2/lmilicevic_2.egg-info/top_level.txt
+../build/lmilicevic_2/lmilicevic_2.egg-info/zip-safe
+lmilicevic_2/__init__.py
+lmilicevic_2/navigator.py
+resource/lmilicevic_2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

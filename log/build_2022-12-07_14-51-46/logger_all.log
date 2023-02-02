@@ -1,0 +1,212 @@
+[0.333s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.333s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f25ab189090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f25ab188070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f25ab188070>>, mixin_verb=('build',))
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.374s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mobrob/ros2_ws/src'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_1) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'lmilicevic_1' with type 'ros.ament_python' and name 'lmilicevic_1'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_2) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'lmilicevic_2' with type 'ros.ament_python' and name 'lmilicevic_2'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(lmilicevic_3) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'lmilicevic_3' with type 'ros.ament_python' and name 'lmilicevic_3'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(move_pillar) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'move_pillar' with type 'ros.ament_python' and name 'move_pillar'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(trackme) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'trackme' with type 'ros.ament_python' and name 'trackme'
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mobrob/ros2_ws/src/install
+[0.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mobrob/ros2_ws/install
+[0.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'lmilicevic_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobrob/ros2_ws/src/build/lmilicevic_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobrob/ros2_ws/src/install/lmilicevic_1', 'merge_install': False, 'path': '/home/mobrob/ros2_ws/src/lmilicevic_1', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_target' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'lmilicevic_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobrob/ros2_ws/src/build/lmilicevic_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobrob/ros2_ws/src/install/lmilicevic_2', 'merge_install': False, 'path': '/home/mobrob/ros2_ws/src/lmilicevic_2', 'symlink_install': False, 'test_result_base': None}
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_target' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_clean_first' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'cmake_force_configure' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'ament_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'lmilicevic_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.556s] DEBUG:colcon.colcon_core.verb:Building package 'lmilicevic_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobrob/ros2_ws/src/build/lmilicevic_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobrob/ros2_ws/src/install/lmilicevic_3', 'merge_install': False, 'path': '/home/mobrob/ros2_ws/src/lmilicevic_3', 'symlink_install': False, 'test_result_base': None}
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_target' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_clean_first' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'cmake_force_configure' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'ament_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'move_pillar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.558s] DEBUG:colcon.colcon_core.verb:Building package 'move_pillar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobrob/ros2_ws/src/build/move_pillar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobrob/ros2_ws/src/install/move_pillar', 'merge_install': False, 'path': '/home/mobrob/ros2_ws/src/move_pillar', 'symlink_install': False, 'test_result_base': None}
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_target' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_clean_cache' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_clean_first' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'cmake_force_configure' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'ament_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'catkin_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'trackme' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.560s] DEBUG:colcon.colcon_core.verb:Building package 'trackme' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobrob/ros2_ws/src/build/trackme', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobrob/ros2_ws/src/install/trackme', 'merge_install': False, 'path': '/home/mobrob/ros2_ws/src/trackme', 'symlink_install': False, 'test_result_base': None}
+[0.561s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.566s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobrob/ros2_ws/src/lmilicevic_1' with build type 'ament_python'
+[0.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('lmilicevic_1', 'ament_prefix_path')
+[0.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/ament_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/ament_prefix_path.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/ament_prefix_path.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobrob/ros2_ws/src/lmilicevic_2' with build type 'ament_python'
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('lmilicevic_2', 'ament_prefix_path')
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_2/share/lmilicevic_2/hook/ament_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobrob/ros2_ws/src/install/lmilicevic_2/share/lmilicevic_2/hook/ament_prefix_path.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_2/share/lmilicevic_2/hook/ament_prefix_path.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobrob/ros2_ws/src/lmilicevic_1'
+[1.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobrob/ros2_ws/src/lmilicevic_2'
+[1.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobrob/ros2_ws/src/lmilicevic_1': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_1 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_1/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_1 --record /home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log --single-version-externally-managed
+[2.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobrob/ros2_ws/src/lmilicevic_2': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_2 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_2/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_2 --record /home/mobrob/ros2_ws/src/build/lmilicevic_2/install.log --single-version-externally-managed
+[2.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobrob/ros2_ws/src/lmilicevic_1' returned '0': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_1 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_1/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_1 --record /home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log --single-version-externally-managed
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1/bin'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/pkgconfig/lmilicevic_1.pc'
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages'
+[2.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('lmilicevic_1', 'pythonpath')
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/pythonpath.ps1'
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/pythonpath.dsv'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/hook/pythonpath.sh'
+[2.685s] Level 1:colcon.colcon_core.environment:checking '/home/mobrob/ros2_ws/src/install/lmilicevic_1/bin'
+[2.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lmilicevic_1)
+[2.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/package.ps1'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/package.dsv'
+[2.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/package.sh'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/package.bash'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/lmilicevic_1/package.zsh'
+[2.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobrob/ros2_ws/src/install/lmilicevic_1/share/colcon-core/packages/lmilicevic_1)
+[2.695s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobrob/ros2_ws/src/lmilicevic_3' with build type 'ament_python'
+[2.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('lmilicevic_3', 'ament_prefix_path')
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_3/share/lmilicevic_3/hook/ament_prefix_path.ps1'
+[2.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobrob/ros2_ws/src/install/lmilicevic_3/share/lmilicevic_3/hook/ament_prefix_path.dsv'
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobrob/ros2_ws/src/install/lmilicevic_3/share/lmilicevic_3/hook/ament_prefix_path.sh'
+[2.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.'
+[3.183s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.201s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.216s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobrob/ros2_ws/src/install/local_setup.ps1'
+[3.220s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mobrob/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobrob/ros2_ws/src/install/setup.ps1'
+[3.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobrob/ros2_ws/src/install/local_setup.sh'
+[3.225s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mobrob/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobrob/ros2_ws/src/install/setup.sh'
+[3.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobrob/ros2_ws/src/install/local_setup.bash'
+[3.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobrob/ros2_ws/src/install/setup.bash'
+[3.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobrob/ros2_ws/src/install/local_setup.zsh'
+[3.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobrob/ros2_ws/src/install/setup.zsh'

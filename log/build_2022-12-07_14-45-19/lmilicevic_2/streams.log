@@ -1,0 +1,20 @@
+[1.531s] Invoking command in '/home/mobrob/ros2_ws/src/lmilicevic_2': PYTHONPATH=/home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lmilicevic_2 build --build-base /home/mobrob/ros2_ws/src/build/lmilicevic_2/build install --prefix /home/mobrob/ros2_ws/src/install/lmilicevic_2 --record /home/mobrob/ros2_ws/src/build/lmilicevic_2/install.log --single-version-externally-managed
+[1.952s] running egg_info
+[1.953s] writing ../build/lmilicevic_2/lmilicevic_2.egg-info/PKG-INFO
+[2.038s] writing dependency_links to ../build/lmilicevic_2/lmilicevic_2.egg-info/dependency_links.txt
+[2.046s] writing entry points to ../build/lmilicevic_2/lmilicevic_2.egg-info/entry_points.txt
+[2.057s] writing requirements to ../build/lmilicevic_2/lmilicevic_2.egg-info/requires.txt
+[2.065s] writing top-level names to ../build/lmilicevic_2/lmilicevic_2.egg-info/top_level.txt
+[2.075s] reading manifest file '../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt'
+[2.079s] writing manifest file '../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.089s] running build_py
+[2.089s] running install
+[2.090s] running install_lib
+[2.094s] running install_data
+[2.095s] running install_egg_info
+[2.098s] removing '/home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.112s] Copying ../build/lmilicevic_2/lmilicevic_2.egg-info to /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2-0.0.0-py3.10.egg-info
+[2.112s] running install_scripts
+[2.146s] Installing navigator script to /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/lmilicevic_2
+[2.146s] writing list of installed files to '/home/mobrob/ros2_ws/src/build/lmilicevic_2/install.log'

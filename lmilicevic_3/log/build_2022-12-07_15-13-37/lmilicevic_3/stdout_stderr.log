@@ -1,0 +1,36 @@
+running egg_info
+creating build/lmilicevic_3/lmilicevic_3.egg-info
+writing build/lmilicevic_3/lmilicevic_3.egg-info/PKG-INFO
+writing dependency_links to build/lmilicevic_3/lmilicevic_3.egg-info/dependency_links.txt
+writing entry points to build/lmilicevic_3/lmilicevic_3.egg-info/entry_points.txt
+writing requirements to build/lmilicevic_3/lmilicevic_3.egg-info/requires.txt
+writing top-level names to build/lmilicevic_3/lmilicevic_3.egg-info/top_level.txt
+writing manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+reading manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+writing manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3
+copying lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3
+copying lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3
+running install
+running install_lib
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+copying /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+copying /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3
+byte-compiling /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/rotator.py to rotator.cpython-310.pyc
+running install_data
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index/packages
+copying resource/lmilicevic_3 -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index/packages
+copying package.xml -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/lmilicevic_3
+creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/lmilicevic_3/launch
+running install_egg_info
+Copying build/lmilicevic_3/lmilicevic_3.egg-info to /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigator script to /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/lmilicevic_3
+writing list of installed files to '/home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/install.log'

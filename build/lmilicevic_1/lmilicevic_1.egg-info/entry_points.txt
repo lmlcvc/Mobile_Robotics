@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = lmilicevic_1.subscriber:main
+

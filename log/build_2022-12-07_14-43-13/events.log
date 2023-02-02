@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (lmilicevic_1) JobQueued: {'identifier': 'lmilicevic_1', 'dependencies': OrderedDict()}
+[0.000221] (lmilicevic_2) JobQueued: {'identifier': 'lmilicevic_2', 'dependencies': OrderedDict()}
+[0.000248] (lmilicevic_3) JobQueued: {'identifier': 'lmilicevic_3', 'dependencies': OrderedDict()}
+[0.000273] (move_pillar) JobQueued: {'identifier': 'move_pillar', 'dependencies': OrderedDict()}
+[0.000296] (trackme) JobQueued: {'identifier': 'trackme', 'dependencies': OrderedDict()}
+[0.000321] (lmilicevic_1) JobStarted: {'identifier': 'lmilicevic_1'}
+[0.014372] (lmilicevic_2) JobStarted: {'identifier': 'lmilicevic_2'}
+[0.089007] (-) TimerEvent: {}
+[0.189384] (-) TimerEvent: {}
+[0.289862] (-) TimerEvent: {}
+[0.390332] (-) TimerEvent: {}
+[0.490808] (-) TimerEvent: {}
+[0.591285] (-) TimerEvent: {}
+[0.691897] (-) TimerEvent: {}
+[0.792530] (-) TimerEvent: {}
+[0.893039] (-) TimerEvent: {}
+[0.993611] (-) TimerEvent: {}
+[1.094027] (-) TimerEvent: {}
+[1.194530] (-) TimerEvent: {}
+[1.294926] (-) TimerEvent: {}
+[1.395309] (-) TimerEvent: {}
+[1.495695] (-) TimerEvent: {}
+[1.596112] (-) TimerEvent: {}
+[1.696435] (-) TimerEvent: {}
+[1.796762] (-) TimerEvent: {}
+[1.897150] (-) TimerEvent: {}
+[2.003256] (-) TimerEvent: {}
+[2.104915] (-) TimerEvent: {}
+[2.205260] (-) TimerEvent: {}
+[2.269064] (lmilicevic_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/lmilicevic_2', 'build', '--build-base', '/home/mobrob/ros2_ws/src/build/lmilicevic_2/build', 'install', '--prefix', '/home/mobrob/ros2_ws/src/install/lmilicevic_2', '--record', '/home/mobrob/ros2_ws/src/build/lmilicevic_2/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobrob/ros2_ws/src/lmilicevic_2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobrob', 'LC_TIME': 'hr_HR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mobrob', 'OLDPWD': '/home/mobrob/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'SYSTEMD_EXEC_PID': '1573', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mobrob/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobrob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mobrob', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/apas3:@/tmp/.ICE-unix/1554,unix/apas3:/tmp/.ICE-unix/1554', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44dbce6b_10aa_4e84_b905_ffb195c36452', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/mobrob/ros2_ws/install/trackme:/home/mobrob/ros2_ws/install/move_pillar:/home/mobrob/ros2_ws/install/lmilicevic_2:/home/mobrob/ros2_ws/install/lmilicevic_1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mobrob/ros2_ws/src/build/lmilicevic_2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/trackme/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/move_pillar/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_2/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.306366] (lmilicevic_1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/lmilicevic_1', 'build', '--build-base', '/home/mobrob/ros2_ws/src/build/lmilicevic_1/build', 'install', '--prefix', '/home/mobrob/ros2_ws/src/install/lmilicevic_1', '--record', '/home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobrob/ros2_ws/src/lmilicevic_1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobrob', 'LC_TIME': 'hr_HR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mobrob', 'OLDPWD': '/home/mobrob/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'SYSTEMD_EXEC_PID': '1573', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mobrob/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobrob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mobrob', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/apas3:@/tmp/.ICE-unix/1554,unix/apas3:/tmp/.ICE-unix/1554', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44dbce6b_10aa_4e84_b905_ffb195c36452', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/mobrob/ros2_ws/install/trackme:/home/mobrob/ros2_ws/install/move_pillar:/home/mobrob/ros2_ws/install/lmilicevic_2:/home/mobrob/ros2_ws/install/lmilicevic_1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mobrob/ros2_ws/src/build/lmilicevic_1', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/trackme/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/move_pillar/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_2/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.307535] (-) TimerEvent: {}
+[2.407859] (-) TimerEvent: {}
+[2.508320] (-) TimerEvent: {}
+[2.608779] (-) TimerEvent: {}
+[2.709291] (-) TimerEvent: {}
+[2.814942] (-) TimerEvent: {}
+[2.915343] (-) TimerEvent: {}
+[3.023825] (-) TimerEvent: {}
+[3.085306] (lmilicevic_2) StdoutLine: {'line': b'running egg_info\n'}
+[3.086448] (lmilicevic_2) StdoutLine: {'line': b'creating ../build/lmilicevic_2/lmilicevic_2.egg-info\n'}
+[3.087032] (lmilicevic_2) StdoutLine: {'line': b'writing ../build/lmilicevic_2/lmilicevic_2.egg-info/PKG-INFO\n'}
+[3.087583] (lmilicevic_2) StdoutLine: {'line': b'writing dependency_links to ../build/lmilicevic_2/lmilicevic_2.egg-info/dependency_links.txt\n'}
+[3.088093] (lmilicevic_2) StdoutLine: {'line': b'writing entry points to ../build/lmilicevic_2/lmilicevic_2.egg-info/entry_points.txt\n'}
+[3.088604] (lmilicevic_2) StdoutLine: {'line': b'writing requirements to ../build/lmilicevic_2/lmilicevic_2.egg-info/requires.txt\n'}
+[3.089026] (lmilicevic_2) StdoutLine: {'line': b'writing top-level names to ../build/lmilicevic_2/lmilicevic_2.egg-info/top_level.txt\n'}
+[3.090988] (lmilicevic_2) StdoutLine: {'line': b"writing manifest file '../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt'\n"}
+[3.094001] (lmilicevic_2) StdoutLine: {'line': b"reading manifest file '../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt'\n"}
+[3.095334] (lmilicevic_2) StdoutLine: {'line': b"writing manifest file '../build/lmilicevic_2/lmilicevic_2.egg-info/SOURCES.txt'\n"}
+[3.095793] (lmilicevic_2) StdoutLine: {'line': b'running build\n'}
+[3.096025] (lmilicevic_2) StdoutLine: {'line': b'running build_py\n'}
+[3.096487] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/build/lmilicevic_2/build\n'}
+[3.096795] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib\n'}
+[3.097049] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib/lmilicevic_2\n'}
+[3.097359] (lmilicevic_2) StdoutLine: {'line': b'copying lmilicevic_2/__init__.py -> /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib/lmilicevic_2\n'}
+[3.097752] (lmilicevic_2) StdoutLine: {'line': b'copying lmilicevic_2/navigator.py -> /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib/lmilicevic_2\n'}
+[3.098264] (lmilicevic_2) StdoutLine: {'line': b'running install\n'}
+[3.099000] (lmilicevic_2) StdoutLine: {'line': b'running install_lib\n'}
+[3.100310] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2\n'}
+[3.100706] (lmilicevic_2) StdoutLine: {'line': b'copying /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib/lmilicevic_2/__init__.py -> /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2\n'}
+[3.101063] (lmilicevic_2) StdoutLine: {'line': b'copying /home/mobrob/ros2_ws/src/build/lmilicevic_2/build/lib/lmilicevic_2/navigator.py -> /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2\n'}
+[3.102016] (lmilicevic_2) StdoutLine: {'line': b'byte-compiling /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2/__init__.py to __init__.cpython-310.pyc\n'}
+[3.102600] (lmilicevic_2) StdoutLine: {'line': b'byte-compiling /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2/navigator.py to navigator.cpython-310.pyc\n'}
+[3.104671] (lmilicevic_2) StdoutLine: {'line': b'running install_data\n'}
+[3.105778] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/ament_index\n'}
+[3.106140] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/ament_index/resource_index\n'}
+[3.106425] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/ament_index/resource_index/packages\n'}
+[3.106753] (lmilicevic_2) StdoutLine: {'line': b'copying resource/lmilicevic_2 -> /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/ament_index/resource_index/packages\n'}
+[3.107164] (lmilicevic_2) StdoutLine: {'line': b'copying package.xml -> /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/lmilicevic_2\n'}
+[3.107577] (lmilicevic_2) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/install/lmilicevic_2/share/lmilicevic_2/launch\n'}
+[3.107874] (lmilicevic_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.110551] (lmilicevic_2) StdoutLine: {'line': b'Copying ../build/lmilicevic_2/lmilicevic_2.egg-info to /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages/lmilicevic_2-0.0.0-py3.10.egg-info\n'}
+[3.111982] (lmilicevic_2) StdoutLine: {'line': b'running install_scripts\n'}
+[3.131807] (-) TimerEvent: {}
+[3.164162] (lmilicevic_2) StdoutLine: {'line': b'Installing navigator script to /home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/lmilicevic_2\n'}
+[3.171873] (lmilicevic_2) StdoutLine: {'line': b"writing list of installed files to '/home/mobrob/ros2_ws/src/build/lmilicevic_2/install.log'\n"}
+[3.205289] (lmilicevic_1) StdoutLine: {'line': b'running egg_info\n'}
+[3.205518] (lmilicevic_1) StdoutLine: {'line': b'writing ../build/lmilicevic_1/lmilicevic_1.egg-info/PKG-INFO\n'}
+[3.205698] (lmilicevic_1) StdoutLine: {'line': b'writing dependency_links to ../build/lmilicevic_1/lmilicevic_1.egg-info/dependency_links.txt\n'}
+[3.206063] (lmilicevic_1) StdoutLine: {'line': b'writing entry points to ../build/lmilicevic_1/lmilicevic_1.egg-info/entry_points.txt\n'}
+[3.206241] (lmilicevic_1) StdoutLine: {'line': b'writing requirements to ../build/lmilicevic_1/lmilicevic_1.egg-info/requires.txt\n'}
+[3.206555] (lmilicevic_1) StdoutLine: {'line': b'writing top-level names to ../build/lmilicevic_1/lmilicevic_1.egg-info/top_level.txt\n'}
+[3.228218] (lmilicevic_1) StdoutLine: {'line': b"reading manifest file '../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'\n"}
+[3.228461] (lmilicevic_1) StdoutLine: {'line': b"writing manifest file '../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'\n"}
+[3.228555] (lmilicevic_1) StdoutLine: {'line': b'running build\n'}
+[3.228640] (lmilicevic_1) StdoutLine: {'line': b'running build_py\n'}
+[3.228723] (lmilicevic_1) StdoutLine: {'line': b'running install\n'}
+[3.228805] (lmilicevic_1) StdoutLine: {'line': b'running install_lib\n'}
+[3.228887] (lmilicevic_1) StdoutLine: {'line': b'running install_data\n'}
+[3.229248] (lmilicevic_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.236278] (lmilicevic_1) StdoutLine: {'line': b"removing '/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.236535] (-) TimerEvent: {}
+[3.236768] (lmilicevic_1) StdoutLine: {'line': b'Copying ../build/lmilicevic_1/lmilicevic_1.egg-info to /home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info\n'}
+[3.237627] (lmilicevic_1) StdoutLine: {'line': b'running install_scripts\n'}
+[3.295825] (lmilicevic_2) CommandEnded: {'returncode': 0}
+[3.304285] (lmilicevic_1) StdoutLine: {'line': b'Installing subscriber script to /home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/lmilicevic_1\n'}
+[3.304499] (lmilicevic_1) StdoutLine: {'line': b"writing list of installed files to '/home/mobrob/ros2_ws/src/build/lmilicevic_1/install.log'\n"}
+[3.339973] (-) TimerEvent: {}
+[3.356676] (lmilicevic_2) JobEnded: {'identifier': 'lmilicevic_2', 'rc': 0}
+[3.357608] (lmilicevic_3) JobStarted: {'identifier': 'lmilicevic_3'}
+[3.396412] (lmilicevic_1) CommandEnded: {'returncode': 0}
+[3.414071] (lmilicevic_1) JobEnded: {'identifier': 'lmilicevic_1', 'rc': 0}
+[3.414906] (move_pillar) JobStarted: {'identifier': 'move_pillar'}
+[3.440075] (-) TimerEvent: {}
+[3.540370] (-) TimerEvent: {}
+[3.640764] (-) TimerEvent: {}
+[3.741406] (-) TimerEvent: {}
+[3.841883] (-) TimerEvent: {}
+[3.943808] (-) TimerEvent: {}
+[3.945315] (lmilicevic_3) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[3.945851] (lmilicevic_3) JobEnded: {'identifier': 'lmilicevic_3', 'rc': 1}
+[3.947061] (move_pillar) JobEnded: {'identifier': 'move_pillar', 'rc': 'SIGINT'}
+[3.957818] (trackme) JobSkipped: {'identifier': 'trackme'}
+[3.957876] (-) EventReactorShutdown: {}

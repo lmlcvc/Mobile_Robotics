@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.003575] (lmilicevic_1) JobQueued: {'identifier': 'lmilicevic_1', 'dependencies': OrderedDict()}
+[0.003655] (lmilicevic_1) JobStarted: {'identifier': 'lmilicevic_1'}
+[0.115589] (-) TimerEvent: {}
+[0.222418] (-) TimerEvent: {}
+[0.677502] (-) TimerEvent: {}
+[0.778640] (-) TimerEvent: {}
+[0.881254] (-) TimerEvent: {}
+[1.015818] (-) TimerEvent: {}
+[1.122402] (-) TimerEvent: {}
+[1.246873] (-) TimerEvent: {}
+[1.547716] (-) TimerEvent: {}
+[1.659506] (-) TimerEvent: {}
+[1.760002] (-) TimerEvent: {}
+[1.878849] (-) TimerEvent: {}
+[1.989186] (-) TimerEvent: {}
+[2.096485] (-) TimerEvent: {}
+[2.223325] (-) TimerEvent: {}
+[2.348871] (-) TimerEvent: {}
+[2.454819] (-) TimerEvent: {}
+[2.577763] (-) TimerEvent: {}
+[2.714860] (-) TimerEvent: {}
+[2.836223] (-) TimerEvent: {}
+[2.939669] (-) TimerEvent: {}
+[3.088942] (-) TimerEvent: {}
+[3.198488] (-) TimerEvent: {}
+[3.315266] (-) TimerEvent: {}
+[3.592404] (-) TimerEvent: {}
+[3.710503] (-) TimerEvent: {}
+[3.811933] (-) TimerEvent: {}
+[3.915888] (-) TimerEvent: {}
+[4.053338] (-) TimerEvent: {}
+[4.171947] (-) TimerEvent: {}
+[4.352620] (-) TimerEvent: {}
+[4.455008] (-) TimerEvent: {}
+[4.649433] (-) TimerEvent: {}
+[4.848558] (-) TimerEvent: {}
+[4.979155] (-) TimerEvent: {}
+[5.317284] (-) TimerEvent: {}
+[5.489015] (-) TimerEvent: {}
+[5.620556] (-) TimerEvent: {}
+[5.921093] (-) TimerEvent: {}
+[6.065679] (-) TimerEvent: {}
+[6.103881] (lmilicevic_1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/lmilicevic_1', 'build', '--build-base', '/home/lana/ros2_ws/build/lmilicevic_1/build', 'install', '--prefix', '/home/lana/ros2_ws/install/lmilicevic_1', '--record', '/home/lana/ros2_ws/build/lmilicevic_1/install.log', '--single-version-externally-managed'], 'cwd': '/home/lana/ros2_ws/src/lmilicevic_1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'lana', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lana', 'OLDPWD': '/home/lana', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1606', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lana/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lana', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lana', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1573,unix/Ubuntu:/tmp/.ICE-unix/1573', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8ae7d1c3_6802_40bf_bf74_50f10d02c8c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O1S1V1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lana/ros2_ws/install/lmilicevic_1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lana/ros2_ws/build/lmilicevic_1', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.179150] (-) TimerEvent: {}
+[6.289366] (-) TimerEvent: {}
+[6.390754] (-) TimerEvent: {}
+[6.492911] (-) TimerEvent: {}
+[6.600336] (-) TimerEvent: {}
+[6.777438] (-) TimerEvent: {}
+[6.886081] (-) TimerEvent: {}
+[7.061493] (-) TimerEvent: {}
+[7.178165] (-) TimerEvent: {}
+[7.295961] (-) TimerEvent: {}
+[7.397461] (-) TimerEvent: {}
+[7.499534] (-) TimerEvent: {}
+[7.600989] (-) TimerEvent: {}
+[7.702782] (-) TimerEvent: {}
+[7.828028] (-) TimerEvent: {}
+[7.964126] (-) TimerEvent: {}
+[8.081291] (-) TimerEvent: {}
+[8.225720] (-) TimerEvent: {}
+[8.502321] (-) TimerEvent: {}
+[8.684633] (-) TimerEvent: {}
+[8.789329] (-) TimerEvent: {}
+[8.901122] (-) TimerEvent: {}
+[9.022255] (-) TimerEvent: {}
+[9.136275] (-) TimerEvent: {}
+[9.312571] (-) TimerEvent: {}
+[9.441491] (-) TimerEvent: {}
+[9.546181] (-) TimerEvent: {}
+[9.685203] (-) TimerEvent: {}
+[9.925198] (-) TimerEvent: {}
+[10.106551] (-) TimerEvent: {}
+[10.336040] (-) TimerEvent: {}
+[10.430704] (lmilicevic_1) StdoutLine: {'line': b'running egg_info\n'}
+[10.431967] (lmilicevic_1) StdoutLine: {'line': b'writing ../../build/lmilicevic_1/lmilicevic_1.egg-info/PKG-INFO\n'}
+[10.451077] (-) TimerEvent: {}
+[10.522433] (lmilicevic_1) StdoutLine: {'line': b'writing dependency_links to ../../build/lmilicevic_1/lmilicevic_1.egg-info/dependency_links.txt\n'}
+[10.524385] (lmilicevic_1) StdoutLine: {'line': b'writing entry points to ../../build/lmilicevic_1/lmilicevic_1.egg-info/entry_points.txt\n'}
+[10.528564] (lmilicevic_1) StdoutLine: {'line': b'writing requirements to ../../build/lmilicevic_1/lmilicevic_1.egg-info/requires.txt\n'}
+[10.529208] (lmilicevic_1) StdoutLine: {'line': b'writing top-level names to ../../build/lmilicevic_1/lmilicevic_1.egg-info/top_level.txt\n'}
+[10.557201] (-) TimerEvent: {}
+[10.673759] (-) TimerEvent: {}
+[10.842229] (-) TimerEvent: {}
+[10.946020] (lmilicevic_1) StdoutLine: {'line': b"reading manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'\n"}
+[10.946892] (-) TimerEvent: {}
+[11.046951] (lmilicevic_1) StdoutLine: {'line': b"writing manifest file '../../build/lmilicevic_1/lmilicevic_1.egg-info/SOURCES.txt'\n"}
+[11.048225] (-) TimerEvent: {}
+[11.049913] (lmilicevic_1) StdoutLine: {'line': b'running build\n'}
+[11.050521] (lmilicevic_1) StdoutLine: {'line': b'running build_py\n'}
+[11.190748] (-) TimerEvent: {}
+[11.390369] (lmilicevic_1) StdoutLine: {'line': b'copying lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1\n'}
+[11.391173] (-) TimerEvent: {}
+[11.393236] (lmilicevic_1) StdoutLine: {'line': b'running install\n'}
+[11.394236] (lmilicevic_1) StdoutLine: {'line': b'running install_lib\n'}
+[11.442806] (lmilicevic_1) StdoutLine: {'line': b'copying /home/lana/ros2_ws/build/lmilicevic_1/build/lib/lmilicevic_1/subscriber.py -> /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1\n'}
+[11.454386] (lmilicevic_1) StdoutLine: {'line': b'byte-compiling /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1/subscriber.py to subscriber.cpython-310.pyc\n'}
+[11.529564] (-) TimerEvent: {}
+[11.710500] (-) TimerEvent: {}
+[11.711030] (lmilicevic_1) StdoutLine: {'line': b'running install_data\n'}
+[11.845180] (-) TimerEvent: {}
+[11.868253] (lmilicevic_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.991035] (-) TimerEvent: {}
+[12.051447] (lmilicevic_1) StdoutLine: {'line': b"removing '/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.051894] (lmilicevic_1) StdoutLine: {'line': b'Copying ../../build/lmilicevic_1/lmilicevic_1.egg-info to /home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1-0.0.0-py3.10.egg-info\n'}
+[12.141817] (-) TimerEvent: {}
+[12.144363] (lmilicevic_1) StdoutLine: {'line': b'running install_scripts\n'}
+[12.250869] (-) TimerEvent: {}
+[12.546605] (-) TimerEvent: {}
+[12.694339] (-) TimerEvent: {}
+[12.849096] (lmilicevic_1) StdoutLine: {'line': b'Installing subscriber script to /home/lana/ros2_ws/install/lmilicevic_1/lib/lmilicevic_1\n'}
+[12.850245] (-) TimerEvent: {}
+[12.851555] (lmilicevic_1) StdoutLine: {'line': b"writing list of installed files to '/home/lana/ros2_ws/build/lmilicevic_1/install.log'\n"}
+[12.973966] (-) TimerEvent: {}
+[13.010605] (lmilicevic_1) CommandEnded: {'returncode': 0}
+[13.077868] (-) TimerEvent: {}
+[13.179132] (-) TimerEvent: {}
+[13.293107] (-) TimerEvent: {}
+[13.473703] (-) TimerEvent: {}
+[13.580062] (-) TimerEvent: {}
+[13.694245] (-) TimerEvent: {}
+[13.803854] (-) TimerEvent: {}
+[13.911935] (lmilicevic_1) JobEnded: {'identifier': 'lmilicevic_1', 'rc': 0}
+[13.915595] (-) TimerEvent: {}
+[13.921618] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/lana/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages/lmilicevic_1/subscriber.py", line 67
+    	self.get_logger().info('Start position: "%s"' % msg
+    	                      ^
+SyntaxError: '(' was never closed
+

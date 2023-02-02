@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.001487] (lmilicevic_3) JobQueued: {'identifier': 'lmilicevic_3', 'dependencies': OrderedDict()}
+[0.001544] (lmilicevic_3) JobStarted: {'identifier': 'lmilicevic_3'}
+[0.098538] (-) TimerEvent: {}
+[0.198983] (-) TimerEvent: {}
+[0.299375] (-) TimerEvent: {}
+[0.399667] (-) TimerEvent: {}
+[0.500012] (-) TimerEvent: {}
+[0.600456] (-) TimerEvent: {}
+[0.700912] (-) TimerEvent: {}
+[0.801377] (-) TimerEvent: {}
+[0.901842] (-) TimerEvent: {}
+[1.002416] (-) TimerEvent: {}
+[1.051989] (lmilicevic_3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/lmilicevic_3', 'build', '--build-base', '/home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build', 'install', '--prefix', '/home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3', '--record', '/home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobrob/ros2_ws/src/lmilicevic_3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobrob', 'LC_TIME': 'hr_HR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mobrob', 'OLDPWD': '/home/mobrob/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'SYSTEMD_EXEC_PID': '1573', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mobrob/ros2_ws/src/install:/home/mobrob/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobrob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mobrob', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/apas3:@/tmp/.ICE-unix/1554,unix/apas3:/tmp/.ICE-unix/1554', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44dbce6b_10aa_4e84_b905_ffb195c36452', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/mobrob/ros2_ws/src/install/lmilicevic_2:/home/mobrob/ros2_ws/src/install/lmilicevic_1:/home/mobrob/ros2_ws/install/trackme:/home/mobrob/ros2_ws/install/move_pillar:/home/mobrob/ros2_ws/install/lmilicevic_2:/home/mobrob/ros2_ws/install/lmilicevic_1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages:/home/mobrob/ros2_ws/src/install/lmilicevic_2/lib/python3.10/site-packages:/home/mobrob/ros2_ws/src/install/lmilicevic_1/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/trackme/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/move_pillar/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_2/lib/python3.10/site-packages:/home/mobrob/ros2_ws/install/lmilicevic_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.102523] (-) TimerEvent: {}
+[1.202929] (-) TimerEvent: {}
+[1.303378] (-) TimerEvent: {}
+[1.403703] (-) TimerEvent: {}
+[1.445575] (lmilicevic_3) StdoutLine: {'line': b'running egg_info\n'}
+[1.446309] (lmilicevic_3) StdoutLine: {'line': b'creating build/lmilicevic_3/lmilicevic_3.egg-info\n'}
+[1.446512] (lmilicevic_3) StdoutLine: {'line': b'writing build/lmilicevic_3/lmilicevic_3.egg-info/PKG-INFO\n'}
+[1.446817] (lmilicevic_3) StdoutLine: {'line': b'writing dependency_links to build/lmilicevic_3/lmilicevic_3.egg-info/dependency_links.txt\n'}
+[1.446999] (lmilicevic_3) StdoutLine: {'line': b'writing entry points to build/lmilicevic_3/lmilicevic_3.egg-info/entry_points.txt\n'}
+[1.447150] (lmilicevic_3) StdoutLine: {'line': b'writing requirements to build/lmilicevic_3/lmilicevic_3.egg-info/requires.txt\n'}
+[1.447248] (lmilicevic_3) StdoutLine: {'line': b'writing top-level names to build/lmilicevic_3/lmilicevic_3.egg-info/top_level.txt\n'}
+[1.448811] (lmilicevic_3) StdoutLine: {'line': b"writing manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'\n"}
+[1.451256] (lmilicevic_3) StdoutLine: {'line': b"reading manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'\n"}
+[1.452145] (lmilicevic_3) StdoutLine: {'line': b"writing manifest file 'build/lmilicevic_3/lmilicevic_3.egg-info/SOURCES.txt'\n"}
+[1.452384] (lmilicevic_3) StdoutLine: {'line': b'running build\n'}
+[1.452502] (lmilicevic_3) StdoutLine: {'line': b'running build_py\n'}
+[1.452648] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build\n'}
+[1.452755] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib\n'}
+[1.452849] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3\n'}
+[1.452976] (lmilicevic_3) StdoutLine: {'line': b'copying lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3\n'}
+[1.453088] (lmilicevic_3) StdoutLine: {'line': b'copying lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3\n'}
+[1.453227] (lmilicevic_3) StdoutLine: {'line': b'running install\n'}
+[1.453577] (lmilicevic_3) StdoutLine: {'line': b'running install_lib\n'}
+[1.454555] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3\n'}
+[1.454801] (lmilicevic_3) StdoutLine: {'line': b'copying /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3/__init__.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3\n'}
+[1.454914] (lmilicevic_3) StdoutLine: {'line': b'copying /home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/build/lib/lmilicevic_3/rotator.py -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3\n'}
+[1.455504] (lmilicevic_3) StdoutLine: {'line': b'byte-compiling /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/__init__.py to __init__.cpython-310.pyc\n'}
+[1.455813] (lmilicevic_3) StdoutLine: {'line': b'byte-compiling /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3/rotator.py to rotator.cpython-310.pyc\n'}
+[1.457342] (lmilicevic_3) StdoutLine: {'line': b'running install_data\n'}
+[1.458176] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index\n'}
+[1.458382] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index\n'}
+[1.458503] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index/packages\n'}
+[1.458672] (lmilicevic_3) StdoutLine: {'line': b'copying resource/lmilicevic_3 -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/ament_index/resource_index/packages\n'}
+[1.458772] (lmilicevic_3) StdoutLine: {'line': b'copying package.xml -> /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/lmilicevic_3\n'}
+[1.458855] (lmilicevic_3) StdoutLine: {'line': b'creating /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/share/lmilicevic_3/launch\n'}
+[1.458935] (lmilicevic_3) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.460870] (lmilicevic_3) StdoutLine: {'line': b'Copying build/lmilicevic_3/lmilicevic_3.egg-info to /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/python3.10/site-packages/lmilicevic_3-0.0.0-py3.10.egg-info\n'}
+[1.461854] (lmilicevic_3) StdoutLine: {'line': b'running install_scripts\n'}
+[1.487735] (lmilicevic_3) StdoutLine: {'line': b'Installing navigator script to /home/mobrob/ros2_ws/src/lmilicevic_3/install/lmilicevic_3/lib/lmilicevic_3\n'}
+[1.488161] (lmilicevic_3) StdoutLine: {'line': b"writing list of installed files to '/home/mobrob/ros2_ws/src/lmilicevic_3/build/lmilicevic_3/install.log'\n"}
+[1.503889] (-) TimerEvent: {}
+[1.533832] (lmilicevic_3) CommandEnded: {'returncode': 0}
+[1.555112] (lmilicevic_3) JobEnded: {'identifier': 'lmilicevic_3', 'rc': 0}
+[1.556113] (-) EventReactorShutdown: {}
